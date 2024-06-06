@@ -53,11 +53,6 @@ const Checkout = () => {
         Learn how to build a website with React Hooks
       </p>
       <h1 className="checkout-price">$19</h1>
-      <img
-        className="checkout-product-image"
-        src={'ProductImage'}
-        alt="Product"
-      />
       <button
         className="checkout-button"
         onClick={redirectToCheckout}
@@ -65,7 +60,6 @@ const Checkout = () => {
       >
         <div className="grey-circle">
           <div className="purple-circle">
-            <img className="icon" src={'CardIcon'} alt="credit-card-icon" />
           </div>
         </div>
         <div className="text-container">
